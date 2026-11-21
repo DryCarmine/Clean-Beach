@@ -78,3 +78,18 @@ La documentación original muestra un videojuego **en desarrollo**. Esta web pro
 
 - https://docs.github.com/en/pages/getting-started-with-github-pages
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+
+## Corrección del logo demasiado grande en GitHub Pages
+
+Si el logo se ve bien en Live Server pero enorme en GitHub Pages, el sitio puede
+estar usando un `styles.css` antiguo que no incluye el selector `.brand-logo`.
+En esta versión el HTML fija el tamaño del logo incluso si el CSS está en caché
+y usa `styles.css?v=2` para forzar la actualización del archivo de estilos.
+
+1. Sustituye `index.html` y `styles.css` del repositorio por estos archivos.
+2. Confirma (commit) y envía (push) los cambios a la rama de GitHub Pages.
+3. Espera a que finalice el despliegue en GitHub Actions o Settings > Pages.
+4. Abre `https://drycarmine.github.io/Clean-Beach/` y presiona Ctrl+Shift+R.
+
+No necesitas cambiar la URL, instalar dependencias ni pagar alojamiento.
