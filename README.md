@@ -14,8 +14,10 @@ clean-beach/
 ├── .nojekyll         # Publicación estática directa en GitHub Pages
 ├── README.md         # Estas instrucciones
 └── assets/
-    ├── favicon.svg
-    └── *.webp         # Capturas y modelos del proyecto
+    ├── logo-clean-beach.png  # Logo oficial para encabezado y pie de página
+    ├── favicon.ico          # Icono de pestaña del navegador
+    ├── favicon-32x32.png    # Icono PNG para navegadores
+    └── *.webp               # Capturas y modelos del proyecto
 ```
 
 **Importante:** `index.html`, `styles.css`, `script.js` y la carpeta `assets/` deben estar juntos en la **raíz del repositorio**; no subas una carpeta adicional que los contenga dentro.
@@ -63,6 +65,10 @@ Reemplaza `TU-USUARIO` por tu usuario real de GitHub. El enlace definitivo apare
 - Espera a que termine el despliegue y revisa la pestaña **Actions** si hay errores.
 - Comprueba que `assets/` esté subida y que el uso de mayúsculas/minúsculas en las rutas coincida exactamente.
 - En este proyecto las rutas de imágenes y archivos son **relativas** (`assets/...`, `styles.css`), por lo que funcionan también bajo `/clean-beach/`.
+
+## Logo del sitio
+
+El logo oficial que compartió el equipo se muestra mediante `assets/logo-clean-beach.png` tanto en el encabezado como en el pie de página. Se retiró el logo anterior dibujado en HTML/SVG y el texto duplicado. Para actualizarlo en el futuro basta con sustituir esa imagen conservando el nombre. Los favicons de la pestaña también usan el logo del proyecto.
 
 ## Sobre el contenido
 

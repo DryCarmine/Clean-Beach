@@ -10,7 +10,9 @@
   <meta property="og:description" content="Conoce el universo, los modelos 3D y los avances de Clean Beach, un videojuego en desarrollo.">
   <meta property="og:image" content="assets/juego-escena-1.webp">
   <title>Clean Beach | Un mundo costero por descubrir</title>
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
@@ -20,10 +22,7 @@
   <header class="site-header" id="inicio">
     <div class="container nav-wrap">
       <a class="brand" href="#inicio" aria-label="Clean Beach, ir al inicio">
-        <span class="brand-icon" aria-hidden="true">
-          <svg viewBox="0 0 44 44" fill="none"><circle cx="22" cy="22" r="22" fill="#3FE2C9"/><path d="M8 25c5-7 9-7 14 0s9 7 14 0" stroke="#0A2942" stroke-width="3.5" stroke-linecap="round"/><path d="M9 31c4-3 8-3 12 0s9 3 14 0" stroke="#0A2942" stroke-width="3" stroke-linecap="round"/><circle cx="28.5" cy="12" r="4.5" fill="#FFF3AA"/></svg>
-        </span>
-        <span class="brand-name">CLEAN<span>BEACH</span></span>
+        <img class="brand-logo" src="assets/logo-clean-beach.png" alt="Clean Beach" width="1200" height="560">
       </a>
       <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menú">
         <span></span><span></span><span></span>
@@ -54,7 +53,7 @@
           </div>
           <div class="hero-under">
             <div class="tiny-avatar" aria-hidden="true">✦</div>
-            <span>Creado con <strong>Unreal Engine 5</strong><br><small>Proyecto académico · Equipo 5</small></span>
+            <span>Creado con <strong>Unreal Engine 5</strong><br><small>Diseño de Videojuegos en Linea · Equipo 5</small></span>
           </div>
         </div>
         <div class="hero-art">
@@ -161,11 +160,11 @@
 
   <footer class="site-footer">
     <div class="container footer-main">
-      <div class="footer-brand"><a class="brand" href="#inicio"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 44 44" fill="none"><circle cx="22" cy="22" r="22" fill="#3FE2C9"/><path d="M8 25c5-7 9-7 14 0s9 7 14 0" stroke="#0A2942" stroke-width="3.5" stroke-linecap="round"/><path d="M9 31c4-3 8-3 12 0s9 3 14 0" stroke="#0A2942" stroke-width="3" stroke-linecap="round"/><circle cx="28.5" cy="12" r="4.5" fill="#FFF3AA"/></svg></span><span class="brand-name">CLEAN<span>BEACH</span></span></a><p>Un nuevo rincón de la costa está tomando forma.</p></div>
+      <div class="footer-brand"><a class="brand" href="#inicio" aria-label="Clean Beach, ir al inicio"><img class="brand-logo" src="assets/logo-clean-beach.png" alt="Clean Beach" width="1200" height="560" loading="lazy"></a><p>Un nuevo rincón de la costa está tomando forma.</p></div>
       <div class="footer-links"><strong>Explorar</strong><a href="#acerca">El juego</a><a href="#galeria">Galería</a><a href="#desarrollo">Desarrollo</a></div>
       <div class="footer-links"><strong>Proyecto</strong><span>Equipo 5</span><span>FCFM · UANL</span><span>Unreal Engine 5</span></div>
     </div>
-    <div class="container footer-bottom"><span>© <span id="year">2026</span> Clean Beach · Proyecto escolar</span><span>Las imágenes corresponden a un proyecto en desarrollo. Sin fecha de lanzamiento anunciada.</span></div>
+    <div class="container footer-bottom"><span>© <span id="year">2026</span> Clean Beach · Diseño de Videojuegos en Linea.</span><span>Las imágenes corresponden a un proyecto en desarrollo. Sin fecha de lanzamiento anunciada.</span></div>
   </footer>
 
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes" aria-hidden="true" hidden>
